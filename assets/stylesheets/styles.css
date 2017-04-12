@@ -1,0 +1,73 @@
+body {
+	margin-top: 80px;
+	background-color: rgb(232,206,179);
+}
+span {
+	font-size: 60px;
+	color: #17A589;
+}
+.content {
+	text-align: center;
+}
+
+p {
+ 	font-size: 18px;
+ }
+ .leftside {
+ 	margin-top: 175px;
+ 	position: relative;
+ 	left: 250px;
+ 	width: 450px;
+ }
+ .main_pic {
+ 	position: relative;
+ 	margin-top: 26px;
+	border: 1px solid black;
+ 	width: 270px;
+ 	border-radius: 30px;
+ }
+
+.avatar {
+ animation-duration: 5s !important;
+}
+
+.right_column {
+	text-align: center;
+}
+
+.body_container {
+	margin-top: 200px;
+}
+
+.bio {
+	position: relative;	
+	text-shadow: 1px 1px;
+	font-size: 20px;
+	font-family: 'ABeeZee', sans-serif;
+}
+
+.container {
+	width: 100%;
+	position: fixed;
+	background-color: rgb(153,130,112);!important;
+}
+
+a {
+	color: black!important;
+}
+
+.hello {
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+

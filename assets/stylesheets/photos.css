@@ -1,0 +1,44 @@
+body {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: rgb(232,206,179);
+}
+
+.pic_2, .pic_3, .pic_4, .pic_5, .pic_6, .pic7, .pic_8 {
+	width: 20%;
+	min-width: 150px;
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.pic_a {
+	background-image: url("../assets/img/molly.jpg");
+}
+.pic_2 {
+	background-image: url("../img/philly_1.jpg");
+}
+.pic_3 {
+	background-image: url("../img/philly_2.jpg");
+}
+.pic_4 {
+	background-image: url("../img/philly_3.jpg");
+}
+.pic_5 {
+	background-image: url("../img/sam.jpg");
+}
+.pic_6 {
+	background-image: url("../img/sb.jpg");
+}
+
+.tile-container {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
