@@ -2,7 +2,7 @@ body {
 	margin-top: 80px;
 	background-color: rgb(232,206,179);
 }
-span {
+.period {
 	font-size: 60px;
 	color: #17A589;
 }
@@ -14,17 +14,19 @@ p {
  	font-size: 18px;
  }
  .leftside {
+ 	margin-left: 100px;
  	margin-top: 175px;
  	position: relative;
  	left: 250px;
  	width: 450px;
  }
  .main_pic {
+ 	margin-right: 150px;
  	position: relative;
  	margin-top: 26px;
 	border: 1px solid black;
  	width: 270px;
- 	border-radius: 30px;
+ 	border-radius: 10px;
  }
 
 .avatar {
@@ -40,10 +42,10 @@ p {
 }
 
 .bio {
+	text-shadow: 1px 1px 1px;
 	position: relative;	
-	text-shadow: 1px 1px;
 	font-size: 20px;
-	font-family: 'ABeeZee', sans-serif;
+	font-family: 'Futura';
 }
 
 .container {
@@ -58,8 +60,8 @@ a {
 
 .hello {
 	position: relative;
+	font-family: 'Futura';	
 }
-
 
 
 

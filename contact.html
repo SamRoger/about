@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Photos</title>
-	<link rel="stylesheet" type="text/css" href="assets/stylesheets/photos.css">
 	<link rel="stylesheet" type="text/css" href="assets/stylesheets/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="assets/stylesheets/styles.css">
 	<link rel="stylesheet" type="text/css" href="assets/stylesheets/animate.css">
-	<link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="assets/stylesheets/custombox.min.css">
-</head>
-<body>
-<nav class="navbar navbar-default navbar-fixed-top">
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/contact.css">
+
+
+	<title>About Me</title>
+
+	</head>
+	<body>
+		    <nav class="navbar navbar-default navbar-fixed-top">
 	      <div class="container">
 	        <div class="navbar-header">
 	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -23,9 +24,9 @@
 	        </div>
 	        <div id="navbar" class="navbar-collapse collapse nav_color">
 	          <ul class="nav navbar-nav">
-	            <li class="active"><a href="index.html">Home</a></li>
+	            <li> <a href="index.html">Home</a></li>
 	            <li><a href="photos.html">Photos</a></li>
-	            <li><a href="contact.html">Contact</a></li>
+	            <li><a href="#">Contact</a></li>
 	          
 	              </ul>
 	            </li>
@@ -35,26 +36,36 @@
 	        </div>
 	      </div>
 	    </nav>
+<!-- body begin  -->
 
+<h3 class="contactText">Contact Form</h3>
 
-<!-- body begin -->
-<div class="tile-container">
-	<div class="pic"></div>
-	<div class="pic"></div>
-	<div class="pic"></div>
-	<div class="pic"></div>
-	<div class="pic"></div>
-	<div class="pic"></div>
-	<div class="pic"></div>
-	<div class="pic"></div>
+<div class="containerContact">
+  <form action="https://coffeeconnectionhilliard.files.wordpress.com/2016/05/thank-you-1400x800-c-default.gif">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input class="submit" type="submit" value="Submit">
+  </form>
 </div>
-<div class="picShow"></div>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
 <script src="assets/javascripts/main.js"></script>
-<script src="custombox.min.js"></script>
-<script src="custombox.legacy.min.js"></script>
 
-</body>
+	</body>
 </html>
