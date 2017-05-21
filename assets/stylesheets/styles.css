@@ -2,71 +2,121 @@ body {
 	margin-top: 80px;
 	background-color: rgb(232,206,179);
 }
-.period {
-	font-size: 60px;
-	color: #17A589;
-}
-.content {
+
+
+.left-side{
+	font-size: 15px;
+	animation: blurOut 3s;
 	text-align: center;
-}
-
-p {
- 	font-size: 18px;
- }
- .leftside {
- 	margin-left: 100px;
- 	margin-top: 175px;
- 	position: relative;
- 	left: 250px;
- 	width: 450px;
- }
- .main_pic {
- 	margin-right: 150px;
- 	position: relative;
- 	margin-top: 26px;
-	border: 1px solid black;
- 	width: 270px;
- 	border-radius: 10px;
- }
-
-.avatar {
- animation-duration: 5s !important;
-}
-
-.right_column {
-	text-align: center;
-}
-
-.body_container {
+	margin-left: 280px;
 	margin-top: 200px;
 }
 
-.bio {
-	text-shadow: 1px 1px 1px;
-	position: relative;	
+.left-side:hover {
+	animation: blurIn 2s forwards;
+}
+
+@keyframes fadein {
+	from {background-color: #8E44AD}
+	to {background-color: #fff}
+}
+
+@keyframes size {
+	0%,100% {font-size: 0px;}
+	100% {font-size: 35px;}
+}
+
+@keyframes blurOut {
+	0%,100% { filter: blur(5px); }
+		100% { filter: blur(0px); }
+}
+
+@keyframes blurIn {
+	0%,100% { filter: blur(0px); }
+	100% { filter: blur(5px); }
+}
+
+@keyframes motion {
+	0%,100% { margin-left: 0; }
+  100% { margin-left: 100px; }
+}
+
+.period {
+	animation: size 3s forwards;
+	margin-left: 5px;
+	color: teal;
+}
+
+.hello, .world {
+	color: #8E44AD;
+	font-family: 'Baloo', cursive;
+}
+
+.right-side {
+}
+
+
+.menu-container {
+	border: 2px white;
+	text-align: center;
+	background-color: #000;
+}
+
+li {
+	text-align: center;
+	width: 100px;
+	margin-top: 22px;
+	margin-bottom: 50px; 
+	margin-bottom: 25px;
+	border: 1px solid black;
+	padding: 2px;
+	border-radius: 5px;
+	background-color: #8E44AD;
 	font-size: 20px;
-	font-family: 'Arial';
+	margin-left: 20px;
+	color: #fff;
+	text-shadow: 1px 1px 2px black;
+	display: inline-block;
 }
 
-.container {
-	width: 100%;
-	position: fixed;
-	background-color: rgb(153,130,112);!important;
+li:hover {
+	animation: fadein .25s;
+	background-color: #fff;
+	color: #000;
+	text-shadow: 0px 0px 0px;
 }
 
-a {
-	color: black!important;
+.bio {
+	font-size: 18px;
+	font-family: 'Quattrocento', serif;
 }
 
-.hello {
-	position: relative;
-	font-family: 'Futura';	
+img {
+	animation: motion 2s forwards;
+	box-shadow: 1px 1px 1px 1px black;
+	border-radius: 10px;
+	width: 250px;
 }
 
+.body-container {
+	margin-top: 50px;
+	display: inline-flex;
+}
 
-
-
-
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+/*@media (min-width: 600px) {
+  body {
+    background: green;
+  }
+}*/
 
 
 
